@@ -1,6 +1,7 @@
 # SOPRO-assesment
 
 To use the features from this Web Application you need to Register new User.
+
 Note: When registering user please use the values from the enum Union (EU, UK, USA). 
 
 For the purpose of this project I've scripted only the data from the SQL database, after the migrations execute the following script:
