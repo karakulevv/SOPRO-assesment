@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SOPRO.Areas.Identity.Data;
+using SOPRO.Models;
 
 namespace SOPRO.Data
 {
@@ -23,5 +24,10 @@ namespace SOPRO.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<Package> Package { get; set; }
+
+        public DbSet<Country> Country { get; set; }
+
     }
 }
